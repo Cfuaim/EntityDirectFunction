@@ -22,6 +22,7 @@
 ### 登録（Register）
 
 特定のエンティティとコマンドを紐づけて登録します。
+※登録したいエンティティを実行者として実行
 
 ```mcfunction
 function entity_direct_function:api/register {function:<command>, map:<string>}
