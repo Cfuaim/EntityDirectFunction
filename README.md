@@ -25,7 +25,7 @@
 ※登録したいエンティティを実行者として実行
 
 ```mcfunction
-function entity_direct_function:api/register {function:<command>, map:<string>}
+function #entity_direct_function:register {function:<command>, map:<string>}
 ```
 
 - `function`: 実行したいコマンド全文
@@ -34,7 +34,7 @@ function entity_direct_function:api/register {function:<command>, map:<string>}
 例:
 
 ```mcfunction
-function entity_direct_function:api/register {function:"function my_pack:do_something", map:"my_entity"}
+function #entity_direct_function:register {function:"function my_pack:do_something", map:"my_entity"}
 ```
 
 ---
@@ -44,13 +44,13 @@ function entity_direct_function:api/register {function:"function my_pack:do_some
 登録済みのfunction mapを実行します。
 
 ```mcfunction
-function entity_direct_function:api/call {map:<string>}
+function #entity_direct_function:call {map:<string>}
 ```
 
 例:
 
 ```mcfunction
-function entity_direct_function:api/call {map:"my_entity"}
+function #entity_direct_function:call {map:"my_entity"}
 ```
 
 ---
@@ -60,7 +60,7 @@ function entity_direct_function:api/call {map:"my_entity"}
 マップ名に `tick` を指定することで、毎 tick 自動的に呼び出されます。
 
 ```mcfunction
-function entity_direct_function:api/register {function:<command>, map:"tick"}
+function #entity_direct_function:register {function:<command>, map:"tick"}
 ```
 
 ---
