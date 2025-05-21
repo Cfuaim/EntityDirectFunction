@@ -49,7 +49,7 @@ function entity_direct_function:api/call {map:<string>}
 例:
 
 ```mcfunction
-function entity_direct_function:api/call {map:my_entity}
+function entity_direct_function:api/call {map:"my_entity"}
 ```
 
 ---
