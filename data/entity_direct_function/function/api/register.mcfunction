@@ -1,8 +1,6 @@
 #> entity_direct_function:api/register
 # @api
-# @input
-#   storage entity_direct_function:register { function: <command>, map: <string>}
-# 
+#
 # エンティティとfunctionをキューに追加
 
 # インプットのコピー

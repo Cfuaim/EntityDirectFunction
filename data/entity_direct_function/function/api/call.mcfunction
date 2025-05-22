@@ -1,8 +1,6 @@
 #> entity_direct_function:api/call
 # @api
-# @input
-#   storage entity_direct_function:call { map: "<map_id>"}
-# 
+#
 # 特定のmapに登録されたfunctionを実行
 
 # マップから実行キューへコピー
