@@ -90,4 +90,4 @@ function #entity_direct_function:register {function:<command>, map:"tick"}
 
 ## 📄 ライセンス
 
-
+[CC0-1.0 License](LICENSE)
