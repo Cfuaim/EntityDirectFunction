@@ -55,6 +55,22 @@ function #entity_direct_function:call {map:"my_entity"}
 
 ---
 
+### 破棄（discard）
+
+エンティティから特定のmapのfunctionを廃棄します。
+
+```mcfunction
+function #entity_direct_function:discard {map:<string>}
+```
+
+例:
+
+```mcfunction
+function #entity_direct_function:discard {map:"my_entity"}
+```
+
+---
+
 ### 自動実行（毎 tick）
 
 マップ名に `tick` を指定することで、毎 tick 自動的に呼び出されます。
@@ -74,4 +90,4 @@ function #entity_direct_function:register {function:<command>, map:"tick"}
 
 ## 📄 ライセンス
 
-
+[CC0-1.0 License](LICENSE)
